@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import os 
 import sys 
 
+# Coin details, (coin type, bag value, coin weight, total weight needed)
 coins_details = {("2", 20, 12.00, 120.00), ("1", 20, 8.75, 175.00), ("0.50", 10, 8.00, 160.00), ("0.20", 10, 5.00, 250.00), ("0.10", 5, 6.50, 325.00), ("0.05", 5, 2.35, 235.00), ("0.02", 1, 7.12, 356.00), ("0.01", 1, 3.56, 356.00)}
 coin_types = {"2", "1", "0.50", "0.20", "0.10", "0.05", "0.02", "0.01"}
 
